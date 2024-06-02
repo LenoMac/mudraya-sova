@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мудрая Сова</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/iconnn.png">
+</head>
+
+<body>
+    <div>
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <span id="close" style="color: black; font-size: 20px; cursor: pointer; align-self: flex-end;">&times;</span>
+            <iframe id="iframe" width="900" height="506" src="https://www.youtube.com/embed/ezbJwaLmOeM"
+                title="What is LMS [Learning Management System]?" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- section-1 -->
+        <section class="section-1">
+            <img class="setka" src="./img/bg-setka.png" alt="">
+            <header>
+                <div class="container">
+                    <!-- header -->
+                    <div class="header shadow">
+                        <div>
+                            <img class="logo" src="./img/title-icon.png" alt="">
+                        </div>
+                        <ul>
+                            <li><a href="#main">Главная</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#classes">Уроки</a></li>
+                            <li><a href="#categories">Категории</a></li>
+                            <li><a href="#contact">Контакт</a></li>
+                        </ul>
+                        <button class="primary shadow">Вход</button>
+                    </div>
+
+                    <div id="main" class="mainpage">
+                        <div class="left">
+                            <p>Откройте для себя магию <br> Обучения в <span>"Мудрой сове"</span></p>
+                            <small>Добро пожаловать в Study hub, где каждый день открываются новые возможности для
+                                открытий и роста. Наше динамичное сообщество предано своему делу.</small>
+                            <div style="display: flex; align-items: center;">
+                                <button class="primary shadow">Исследовать</button>
+                                <img onclick="showModal()" style="margin-left: 20px;" width="50px" src="./img/playy.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="./img/girlandboy.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <img class="banner" src="./img/bg-banner.png" alt="">
+        </section>
+        <!-- section-2 -->
+        <section id="about" class="section section-2">
+            <div class="container">
+                <div class="about">
+                    <div class="left">
+                        <img src="./img/about-01.png.png" alt="">
+                    </div>
+                    <div class="right">
+                        <p><img src="./img/title-img.svg.png" alt="">Про нас</p>
+                        <h3>Узнайте о нашей миссии для Академии Мудрая Сова</h3>
+                        <small>Добро пожаловать в Мудрой Сове, где образование сочетается с вдохновением, а путешествие
+                            каждого ребенка - это история роста и открытий.</small>
+                        <div class="cards">
+                            <div class="card card-1 shadow">
+                                <img src="./img/our-mission.png" alt="">
+                                <div>
+                                    <small>Наша миссия в Мудрой Сове - создать среду, в которой будет пробуждаться
+                                        любопытство.</small>
+                                </div>
+                            </div>
+                            <div class="card card-2 shadow">
+                                <img src="./img/our-mission.png" alt="">
+                                <div>
+                                    <small>Наша миссия в Мудрой Сове - создать среду, в которой будет пробуждаться
+                                        любопытство.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="primary shadow">Больше об этом</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-3 -->
+        <section id="classes" class="section section-3">
+            <div class="container">
+                <div class="classes">
+                    <p><img src="./img/title-img.svg.png" alt="">Уроки</p>
+                    <h3>Найдите Занятия Для Каждого Возраста</h3>
+                    <small>Отмечен значительным ростом и исследованиями по мере того, как малыши выходят из
+                        младенческого возраста</small>
+                    <div class="cards">
+                        <div class="card shadow">
+                            <img src="./img/toddler.png" alt="">
+                            <p>Ползунок</p>
+                            <small>(от 1 до 3 лет)</small>
+                            <small>Малыш - это ребенок, как правило, в возрасте от 1 до 3 лет.</small>
+                        </div>
+                        <div class="card shadow">
+                            <img src="./img/pre-k program.png" alt="">
+                            <p>Дошколный</p>
+                            <small>(от 1 до 3 лет)</small>
+                            <small>Малыш - это ребенок, как правило, в возрасте от 1 до 3 лет.</small>
+                        </div>
+                        <div class="card shadow">
+                            <img src="./img/kindergarden.png" alt="">
+                            <p>Детский Сад</p>
+                            <small>(от 1 до 3 лет)</small>
+                            <small>Малыш - это ребенок, как правило, в возрасте от 1 до 3 лет.</small>
+                        </div>
+                        <div class="card shadow">
+                            <img src="./img/preschool.png" alt="">
+                            <p>Pre-K Программа</p>
+                            <small>(от 1 до 3 лет)</small>
+                            <small>Малыш - это ребенок, как правило, в возрасте от 1 до 3 лет.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="banner" src="./img/banner-bg-2.png.png" alt="">
+        </section>
+        <!-- section-4 -->
+        <section id="courses" class="section section-4">
+            <div class="container">
+                <div class="course">
+                    <p><img src="./img/title-img.svg.png" alt="">Курсы</p>
+                    <h3>Детские курсы в Мурой Сове</h3>
+                    <small>Откройте для себя увлекательные и обогащающие курсы, разработанные специально для юных умов в
+                        Мудрой Сове</small>
+                    <div class="cards">
+                        <div class="card shadow">
+                            <img src="./img/01.jpg.jpg" alt="">
+                            <div>
+                                <p>Первые исследователи (3-5 лет)</p>
+                                <small>Знакомство с цветами, формами и основными художественными выражениями.</small>
+                                <ul>
+                                    <li>Азбука приключений</li>
+                                    <li>Маленькие ученые</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <img src="./img/02.jpg.jpg" alt="">
+                            <div>
+                                <p>Первые исследователи (3-5 лет)</p>
+                                <small>Знакомство с цветами, формами и основными художественными выражениями.</small>
+                                <ul>
+                                    <li>Азбука приключений</li>
+                                    <li>Маленькие ученые</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card shadow">
+                            <img src="./img/03.jpg.jpg" alt="">
+                            <div>
+                                <p>Первые исследователи (3-5 лет)</p>
+                                <small>Знакомство с цветами, формами и основными художественными выражениями.</small>
+                                <ul>
+                                    <li>Азбука приключений</li>
+                                    <li>Маленькие ученые</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-5 -->
+        <section id="categories" class="section-5 section">
+            <div class="container">
+                <div class="category">
+                    <p><img src="./img/title-img.svg.png" alt="">Категории</p>
+                    <h3>Популярные темы занятий</h3>
+                    <small>отмечен значительным ростом и исследованиями по мере того, как малыши выходят из
+                        младенческого возраста</small>
+                    <div class="categories">
+                        <div class="category-card">
+                            <div class="shadow">
+                                <img src="./img/07.svg.png" alt="">
+                            </div>
+                            <p class="shadow">Языки</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="shadow">
+                                <img src="./img/08.svg.png" alt="">
+                            </div>
+                            <p class="shadow">Кодирования</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="shadow">
+                                <img src="./img/09.svg.png" alt="">
+                            </div>
+                            <p class="shadow">Математика</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="shadow">
+                                <img src="./img/10.svg.png" alt="">
+                            </div>
+                            <p class="shadow">Музыка</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="shadow">
+                                <img src="./img/11.svg.png" alt="">
+                            </div>
+                            <p class="shadow">Писательский</p>
+                        </div>
+                        <div class="category-card">
+                            <div class="shadow">
+                                <img src="./img/07.svg.png" alt="">
+                            </div>
+                            <p class="shadow">Языки</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-6 -->
+        <section class="section section-6">
+            <div class="container">
+                <div class="popular-classes">
+                    <p><img src="./img/title-img.svg.png" alt="">Популярные Курсы</p>
+                    <h3>Популярные темы занятий</h3>
+                    <small>отмечен значительным ростом и исследованиями по мере того, как малыши выходят из
+                        младенческого возраста</small>
+                    <div class="course-list">
+                        <div class="course-card shadow">
+                            <img class="bg" src="./img/course-1.png" alt="">
+                            <div class="row">
+                                <div>
+                                    <p>Возраст 3-8 лет</p>
+                                    <p>50 Мин</p>
+                                </div>
+                                <p class="text">Маленькие искатели приключений путешествуют по Мир Вместе! (Возраст 7-9
+                                    лет)</p>
+                                <div class="rating">
+                                    <img src="./img/rateing.png" alt=""><span>4.5 (124)</span>
+                                </div>
+                                <div class="author">
+                                    <div>
+                                        <img src="./img/author-02.png.png" alt="">
+                                        <p class="name">Ария Старк</p>
+                                    </div>
+                                    <p>$10.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card shadow">
+                            <img src="./img/course-2.png" alt="">
+                            <div class="row">
+                                <div>
+                                    <p>Возраст 3-8 лет</p>
+                                    <p>50 Мин</p>
+                                </div>
+                                <p class="text">Маленькие искатели приключений путешествуют по Мир Вместе! (Возраст 7-9
+                                    лет)</p>
+                                <div class="rating">
+                                    <img src="./img/rateing.png" alt=""><span>4.5 (124)</span>
+                                </div>
+                                <div class="author">
+                                    <div>
+                                        <img src="./img/author-01.png.png" alt="">
+                                        <p class="name">Мария София</p>
+                                    </div>
+                                    <p>$15.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card shadow">
+                            <img src="./img/course-3.png" alt="">
+                            <div class="row">
+                                <div>
+                                    <p>Возраст 3-8 лет</p>
+                                    <p>50 Мин</p>
+                                </div>
+                                <p class="text">Маленькие искатели приключений путешествуют по Мир Вместе! (Возраст 7-9
+                                    лет)</p>
+                                <div class="rating">
+                                    <img src="./img/rateing.png" alt=""><span>4.5 (124)</span>
+                                </div>
+                                <div class="author">
+                                    <div>
+                                        <img src="./img/author-01.png.png" alt="">
+                                        <p class="name">Мария София</p>
+                                    </div>
+                                    <p>$15.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-card shadow">
+                            <img src="./img/course-4.png" alt="">
+                            <div class="row">
+                                <div>
+                                    <p>Возраст 3-8 лет</p>
+                                    <p>50 Мин</p>
+                                </div>
+                                <p class="text">Маленькие искатели приключений путешествуют по Мир Вместе! (Возраст 7-9
+                                    лет)</p>
+                                <div class="rating">
+                                    <img src="./img/rateing.png" alt=""><span>4.5 (124)</span>
+                                </div>
+                                <div class="author">
+                                    <div>
+                                        <img src="./img/author-01.png.png" alt="">
+                                        <p class="name">Мария София</p>
+                                    </div>
+                                    <p>$15.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-7 -->
+        <section id="events" class="section section-7">
+            <div class="container">
+                <div class="events">
+                    <p><img src="./img/title-img.svg.png" alt="">Событие</p>
+                    <h3>Предстоящие события</h3>
+                    <small>Мы рады объявить о нашем предстоящем мероприятии - Дне исследователя - празднике
+                        знаний</small>
+                    <div class="event-list">
+                        <div class="event-card shadow">
+                            <img class="img" src="./img/29.png" alt="">
+                            <div class="row">
+                                <p>Ежегодная культурная программа</p>
+                                <div class="info">
+                                    <small><img src="./img/clock.png" alt="">9:00 утра - 12:00 вечера</small>
+                                    <small><img src="./img/place.png" alt="">55 Clark St, Бруклин, Нью-Йорк 11201,
+                                        США</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card shadow">
+                            <img class="img" src="./img/05.png" alt="">
+                            <div class="row">
+                                <p>Вас ждет целый мир историй</p>
+                                <div class="info">
+                                    <small><img src="./img/clock.png" alt="">9:00 утра - 12:00 вечера</small>
+                                    <small><img src="./img/place.png" alt="">55 Clark St, Бруклин, Нью-Йорк 11201,
+                                        США</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card shadow">
+                            <img class="img" src="./img/11.png" alt="">
+                            <div class="row">
+                                <p>Всемирный день рисования</p>
+                                <div class="info">
+                                    <small><img src="./img/clock.png" alt="">9:00 утра - 12:00 вечера</small>
+                                    <small><img src="./img/place.png" alt="">55 Clark St, Бруклин, Нью-Йорк 11201,
+                                        США</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="event-card shadow">
+                            <img class="img" src="./img/19.png" alt="">
+                            <div class="row">
+                                <p>Всемирный день защиты детей</p>
+                                <div class="info">
+                                    <small><img src="./img/clock.png" alt="">9:00 утра - 12:00 вечера</small>
+                                    <small><img src="./img/place.png" alt="">55 Clark St, Бруклин, Нью-Йорк 11201,
+                                        США</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="banner" src="./img/banner-bg-2.png.png" alt="">
+        </section>
+        <!-- section-8 -->
+        <section class="section section-8">
+            <div class="container">
+                <div class="container">
+                    <div class="parents">
+                        <p><img src="./img/title-img.svg.png" alt="">Рекомендации</p>
+                        <h3>Что родители говорят о Нас</h3>
+                        <small>Успех и счастье наших студентов лежат в основе всего, что мы делаем. Но не верьте нам
+                            просто на слово</small>
+                        <div class="row">
+                            <img id="previos-button" class="button" src="./img/Button - Previous slide.png" alt="">
+                            <div class="parent-card shadow">
+                                <p class="name">Дэвид Джон</p>
+                                <small>Художник и преподаватель</small>
+                                <p>Я бы настоятельно рекомендовал Майкла Ричарда всем, кто интересуется этой темой. Он
+                                    дал мне бесценные знания и новую тему для увлечения.</p>
+                                <img src="./img/rateing.png" alt="">
+                            </div>
+                            <img id="next-button" class="button" src="./img/Button - Next slide.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section footer">
+            <div class="container">
+                <footer>
+                    <p class="title">Не Пропустите Потрясающую Историю От Наших Выпускников</p>
+                    <form class="search shadow" action="">
+                        <input placeholder="Введите email" required type="email">
+                        <button class="primary shadow">Подписаться</button>
+                    </form>
+                    <div class="footer-details">
+                        <div style="display: flex; flex-direction: column; align-items: start; gap: 20px;">
+                            <img src="./img/title-icon.png" alt="">
+                            <small style="width: 200px;">Мы увлечены образованием и стремимся предоставлять
+                                высококачественные ресурсы учащиеся всех специальностей.</small>
+                            <small style="display: flex; align-items: center; gap: 10px;"><img src="./img/place.png"
+                                    alt="">Ярра-парк, Мельбурн, Австралия</small>
+                            <small style="display: flex; align-items: center; gap: 10px;"><img src="./img/phone.png"
+                                    alt="">+(61) 485-826-710 </small>
+                        </div>
+                        <div>
+                            <h2>О нас</h2>
+                            <ul style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;">
+                                <li>О нас</li>
+                                <li>События</li>
+                                <li>Цена</li>
+                                <li>Учителя</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Наши курсы</h2>
+                            <ul style="display: flex; flex-direction: column; gap: 20px; margin-top: 20px;">
+                                <li>Курсы</li>
+                                <li>Блог</li>
+                                <li>Программа</li>
+                                <li>Контакты</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2>Недавнее посты</h2>
+                            <ul style="margin-top: 20px;">
+                                <li
+                                    style="display: flex; align-items: center; width: 220px; font-size: 15px; gap: 10px;">
+                                    <img src="./img/post-1.jpg" alt="">Avoid These 4 Common When Managing Remote Teams
+                                </li>
+                                <li
+                                    style="margin-top: 20px; display: flex; align-items: center; width: 220px; font-size: 15px; gap: 10px;">
+                                    <img src="./img/post-2.jpg" alt=""> How To Draw Realistic Lips In 7 Simple Steps
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+            <div>
+
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
