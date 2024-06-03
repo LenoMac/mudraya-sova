@@ -35,6 +35,7 @@ prevBtn.onclick = () => {
 function showModal() {
     iframe.style.display = "block"
     modal.style.display = "block"
+    modal.style.zIndex = 100
 }
 
 closeBtn.onclick = () => {
